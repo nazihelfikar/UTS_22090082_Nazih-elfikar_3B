@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css">
+</head>
+<body>
+<div id="header"> 
+    <div class="container">
+        <nav>
+            <a href="#" class="navbar-logo">Portofolio<span>Saya</span>.</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+            <i class="ri-menu-line"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX DESIGNER</p>
+            <h1>Halo, Nama Saya <span>Nazih elfikar</h1>
+                <p class="hero-description">Saya adalah seorang desainer UI/UX dengan pengalaman dalam bisnis desain</p> 
+                <p class="hero-description">Saya berkomitmen untuk memberikan pengalaman pengguna yang menarik dan fungsional</p>
+        </div>
+    </div>
+</div> 
+
+<!-- ---------------about------------- -->
+   <div id="about">
+       <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="d10216cc-e834-4272-af02-20c824c1c787.jpg" alt="Foto">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero vitae voluptatem minus quod at cum, quos nemo exercitationem? Consectetur minus alias dolorum repellat fugit eveniet voluptas id consequatur dolore asperiores.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skill')">Skill</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skill">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web interface</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>UI, UX, Bisnis Design - Insight</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2022</span><br>UI, UX, Bisnis Design - Insight</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+       </div>
+   </div>
+
+   <!-- --------------services------------- -->
+   <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="ri-code-line"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores minus odio porro sit nesciunt nihil, similique nisi quam rem laudantium atque veritatis ullam, optio ad necessitatibus accusantium sint aliquam ex.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="ri-layout-2-line"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores minus odio porro sit nesciunt nihil, similique nisi quam rem laudantium atque veritatis ullam, optio ad necessitatibus accusantium sint aliquam ex.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <!-- ---------------portofolio----------- -->
+   <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Screenshot (153).png" alt="Work 1">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world.</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Screenshot (155).png" alt="Work 2">
+                    <div class="layer">
+                        <h3>Web Blended Learning</h3>
+                        <p>Blended Learning"
+                            "E-Learning Excellence Innovative Teaching Approaches"
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+   </div>
+
+   <!-- ------------------kontak----------------- -->
+   <div id="kontak">
+    <div class="container">
+        <div class="row">
+            <div class="kontak-left">
+                <h1 class="sub-title">Kontak Saya</h1>
+                <p><i class="ri-send-plane-fill"></i> nazihelfikar68@gmail.com</p>
+                <p><i class="ri-phone-fill"></i> 0895422830151</p>
+                <div class="sosial-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100009312815780&mibextid=ZbWKwL"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="https://www.instagram.com/__elfikar/"><i class="ri-instagram-line"></i></a>
+                    <a href="https://www.linkedin.com/in/Nazih Elfikar-341933255/"><i class="ri-linkedin-box-fill"></i></a>
+                </div>
+                <a href="cv resume Nazihelfikar.jpg" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="kontak-right">
+                <form>
+                    <input type="text" name="Nama" placeholder="Nama" required>
+                    <input type="text" name="Email" placeholder="Email" required>
+                    <textarea name="Pesan" rows="6" placeholder="Pesan"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <h1>Nazihelfikar</h1>
+        <p>Copyright © Nef68. Production All rights reserved</p>
+    </div>
+   </div>
+
+   <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       }
+   </script>
+</body>
+</html>
